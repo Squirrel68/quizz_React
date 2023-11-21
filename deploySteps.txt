@@ -1,0 +1,8 @@
+Run:
+npm i gh-pages --save-dev
+
+On package.json, add:
+"homepage": "https://squirrel68.github.io/quizz_React",
+
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
